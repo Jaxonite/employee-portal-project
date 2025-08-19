@@ -1,0 +1,3 @@
+const mongoose = require('mongoose');
+const taskSchema = mongoose.Schema({ /* ... schema from immersive ... */ });
+// ... paste the full taskModel.js code here ...

@@ -1,0 +1,3 @@
+const mongoose = require('mongoose');
+const documentSchema = mongoose.Schema({ /* ... schema from immersive ... */ });
+// ... paste the full documentModel.js code here ...

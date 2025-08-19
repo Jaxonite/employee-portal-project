@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 
 // --- API Service Configuration ---
-const API = axios.create({ baseURL: 'http://localhost:5000' });
+const API = axios.create({ baseURL: process.env.REACT_APP_API_URL });
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem('userInfo')) {
